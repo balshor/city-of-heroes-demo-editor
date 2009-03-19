@@ -1,0 +1,907 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+<title>City of Heroes Demo Editor: Maps</title>
+</head>
+<body lang="en-US">
+
+<p>This list courtesy of the <a href="http://home.twcny.rr.com/scuzzbopper/coh/">City of Heroes Codex</a>.  Used with site owner's permission, copied 2005-07-07.</p>
+
+<TABLE CELLSPACING=0 CELLPADDING=2 WIDTH=95% CLASS="bordt" BORDER=1>
+
+<TR VALIGN=top>
+	<TD COLSPAN=7>
+		<H1>CoH Demo Maps</H1>
+	</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top CLASS="tbox">
+	<TD>
+		Map Type
+	</TD>
+	<TD COLSPAN=4>
+		Map Name
+	</TD>
+	<TD COLSPAN=2>
+
+		Notes
+	</TD>
+</TR>
+
+
+
+
+<TR VALIGN=top CLASS="sectionhead">
+	<TD COLSPAN=7>
+		<a name="arenamaps">
+		Arena Maps<BR><P>
+	</TD>
+
+
+<TR VALIGN=top CLASS="tbox">
+	<TD>
+		Arena Maps
+	</TD>
+	<TD COLSPAN=4>
+maps/Arena/Arena_Perez_01/Arena_Perez_01.txt<BR>
+maps/Arena/Arena_Tech_01/Arena_Tech_01.txt<BR>
+	</TD>
+	<TD COLSPAN=2>
+
+	</TD>
+</TR>
+
+
+
+<TR VALIGN=top CLASS="sectionhead">
+	<TD COLSPAN=7>
+		<a name="citymaps">
+		City Zone Maps<BR><P>
+	</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top CLASS="tbox">
+	<TD>
+		Standard City Zones
+	</TD>
+	<TD COLSPAN=4>
+maps/City_Zones/City_00_01/City_00_01.txt<BR>
+maps/City_Zones/City_01_01/City_01_01.txt<BR>
+maps/City_Zones/City_01_02/City_01_02.txt<BR>
+
+maps/City_Zones/City_01_03/City_01_03.txt<BR>
+maps/City_Zones/City_02_01/City_02_01.txt<BR>
+maps/City_Zones/City_02_02/City_02_02.txt<BR>
+maps/City_Zones/City_02_03/City_02_03.txt<BR>
+maps/City_Zones/City_03_01/City_03_01.txt<BR>
+maps/City_Zones/City_03_02/City_03_02.txt<BR>
+maps/City_Zones/City_04_01/City_04_01.txt<BR>
+maps/City_Zones/City_04_02/City_04_02.txt<BR>
+maps/City_Zones/City_05_01/City_05_01.txt<BR>
+
+	</TD>
+	<TD COLSPAN=2>
+Outbreak<BR>
+Atlas Park<BR>
+Kings Row<BR>
+Galaxy City<BR>
+Steel Canyon<BR>
+Skyway City<BR>
+Paragon Dance Club<BR>
+
+Talos Island<BR>
+Independence Port<BR>
+Founders' Falls<BR>
+Brickstown<BR>
+Peregrine Island<BR>
+	</TD>
+</TR>
+
+<TR VALIGN=top CLASS="tbox">
+	<TD>
+
+		Hazard Zones
+	</TD>
+	<TD COLSPAN=4>
+maps/City_Zones/Hazard_01_01/Hazard_01_01.txt<BR>
+maps/City_Zones/Hazard_01_02/Hazard_01_02.txt<BR>
+maps/City_Zones/Hazard_01_03/Hazard_01_03.txt<BR>
+maps/City_Zones/Hazard_02_01/Hazard_02_01.txt<BR>
+maps/City_Zones/Hazard_03_01/Hazard_03_01.txt<BR>
+maps/City_Zones/Hazard_03_02/Hazard_03_02.txt<BR>
+
+maps/City_Zones/Hazard_04_01/Hazard_04_01.txt<BR>
+maps/City_Zones/Hazard_06_01/Hazard_06_01.txt<BR>
+maps/City_Zones/Hazard_06_02/Hazard_06_02.txt<BR>
+maps/City_Zones/Hazard_06_03/Hazard_06_03.txt<BR>
+	</TD>
+	<TD COLSPAN=2>
+Perez Park<BR>
+The Hollows<BR>
+The Tunnels<BR>
+
+Boomtown<BR>
+Dark Astoria<BR>
+Striga Isle<BR>
+Crey's Folly<BR>
+Firebase Zulu<BR>
+Cascade Archipelago<BR>
+The Chantry<BR>
+	</TD>
+</TR>
+
+
+<TR VALIGN=top CLASS="tbox">
+	<TD>
+		Trial Zones
+	</TD>
+	<TD COLSPAN=4>
+maps/City_Zones/Trial_01_01/Trial_01_01.txt<BR>
+maps/City_Zones/Trial_01_02/Trial_01_02.txt<BR>
+maps/City_Zones/Trial_02_01/Trial_02_01.txt<BR>
+maps/City_Zones/Trial_03_01/Trial_03_01.txt<BR>
+
+maps/City_Zones/Trial_04_01/Trial_04_01.txt<BR>
+maps/City_Zones/Trial_04_02/Trial_04_02.txt<BR>
+maps/City_Zones/Trial_05_01/Trial_05_01.txt<BR>
+maps/City_Zones/Trial_06_01/Trial_06_01.txt<BR>
+	</TD>
+	<TD COLSPAN=2>
+Abandoned Sewer Network<BR>
+Sewer Network<BR>
+Faultline<BR>
+
+Terra Volta<BR>
+Eden<BR>
+The Hive<BR>
+Rikti Crash Site<BR>
+The Storm Palace<BR>
+	</TD>
+</TR>
+
+
+
+<TR VALIGN=top CLASS="sectionhead">
+
+	<TD COLSPAN=7>
+		<a name="missionmaps">
+		Mission Maps<BR><P>
+	</TD>
+</TR>
+
+
+<TR VALIGN=top CLASS="tbox">
+	<TD>
+		Council Maps
+	</TD>
+
+	<TD COLSPAN=4>
+maps/Missions/5th_Column/5th_Column_30/5th_Column_30_Layout_01.txt<BR>
+maps/Missions/5th_Column/5th_Column_30/5th_Column_30_Layout_02.txt<BR>
+maps/Missions/5th_Column/5th_Column_30/5th_Column_30_Layout_03.txt<BR>
+maps/Missions/5th_Column/5th_Column_30/5th_Column_30_Layout_04.txt<BR>
+maps/Missions/5th_Column/5th_Column_30/5th_Column_30_Layout_05.txt<BR>
+maps/Missions/5th_Column/5th_Column_30/5th_Column_30_Layout_06.txt<BR>
+maps/Missions/5th_Column/5th_Column_30/5th_Column_30_Layout_07.txt<BR>
+maps/Missions/5th_Column/5th_Column_30/5th_Column_30_Layout_08.txt<BR>
+
+maps/Missions/5th_Column/5th_Column_30/5th_Column_30_Layout_09.txt<BR>
+maps/Missions/5th_Column/5th_Column_30/5th_Column_30_Layout_10.txt<BR>
+maps/Missions/5th_Column/5th_Column_30/5th_Column_30_Layout_11.txt<BR>
+maps/Missions/5th_Column/5th_Column_30/5th_Column_30_Layout_12.txt<BR>
+maps/Missions/5th_Column/5th_Column_30/5th_Column_30_Layout_13.txt<BR>
+maps/Missions/5th_Column/5th_Column_30/5th_Column_30_Layout_14.txt<BR>
+maps/Missions/5th_Column/5th_Column_30/5th_Column_30_Layout_15.txt<BR>
+maps/Missions/5th_Column/5th_Column_45/5th_Column_45_Layout_01p.txt<BR>
+maps/Missions/5th_Column/5th_Column_60/5th_Column_60_Layout_01.txt<BR>
+
+maps/Missions/5th_Column/5th_Column_60/5th_Column_60_Layout_02.txt<BR>
+maps/Missions/5th_Column/5th_Column_60/5th_Column_60_Layout_03.txt<BR>
+maps/Missions/5th_Column/5th_Column_60/5th_Column_60_Layout_04.txt<BR>
+maps/Missions/5th_Column/5th_Column_60/5th_Column_60_Layout_05.txt<BR>
+maps/Missions/5th_Column/5th_Column_60/5th_Column_60_Layout_06.txt<BR>
+maps/Missions/5th_Column/5th_Column_60/5th_Column_60_Layout_07.txt<BR>
+maps/Missions/5th_Column/5th_Column_60/5th_Column_60_Layout_08.txt<BR>
+maps/Missions/5th_Column/5th_Column_60/5th_Column_60_Layout_09.txt<BR>
+maps/Missions/5th_Column/5th_Column_60/5th_Column_60_Layout_10.txt<BR>
+
+maps/Missions/5th_Column/5th_Column_60/5th_Column_60_Layout_11.txt<BR>
+maps/Missions/5th_Column/5th_Column_60/5th_Column_60_Layout_12.txt<BR>
+maps/Missions/5th_Column/5th_Column_60/5th_Column_60_Layout_13.txt<BR>
+maps/Missions/5th_Column/5th_Column_60/5th_Column_60_Layout_14.txt<BR>
+maps/Missions/5th_Column/5th_Column_60/5th_Column_60_Layout_15.txt<BR>
+	</TD>
+	<TD COLSPAN=2>
+	</TD>
+</TR>
+
+
+<TR VALIGN=top CLASS="tbox">
+	<TD>
+		Abandoned <BR>Office Maps
+	</TD>
+	<TD COLSPAN=4>
+maps/Missions/Abandoned_Office/Abandoned_Office_15/Abandoned_Office_15_Layout_01_01.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_15/Abandoned_Office_15_Layout_02_01.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_30/Abandoned_Office_30_Layout_01.txt<BR>
+
+maps/Missions/Abandoned_Office/Abandoned_Office_30/Abandoned_Office_30_Layout_02.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_30/Abandoned_Office_30_Layout_03.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_30/Abandoned_Office_30_Layout_04.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_30/Abandoned_Office_30_Layout_05.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_30/Abandoned_Office_30_Layout_06.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_30/Abandoned_Office_30_Layout_07.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_30/Abandoned_Office_30_Layout_08.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_30/Abandoned_Office_30_Layout_09.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_30/Abandoned_Office_30_Layout_10.txt<BR>
+
+maps/Missions/Abandoned_Office/Abandoned_Office_30/Abandoned_Office_30_Layout_11.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_30/Abandoned_Office_30_Layout_12.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_30/Abandoned_Office_30_Layout_13.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_30/Abandoned_Office_30_Layout_14.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_30/Abandoned_Office_30_Layout_15.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_60/Abandoned_Office_60_Layout_01.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_60/Abandoned_Office_60_Layout_02.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_60/Abandoned_Office_60_Layout_03.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_60/Abandoned_Office_60_Layout_04.txt<BR>
+
+maps/Missions/Abandoned_Office/Abandoned_Office_60/Abandoned_Office_60_Layout_05.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_60/Abandoned_Office_60_Layout_06.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_60/Abandoned_Office_60_Layout_07.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_60/Abandoned_Office_60_Layout_08.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_60/Abandoned_Office_60_Layout_09.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_60/Abandoned_Office_60_Layout_10.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_60/Abandoned_Office_60_Layout_11.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_60/Abandoned_Office_60_Layout_12.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_60/Abandoned_Office_60_Layout_13.txt<BR>
+
+maps/Missions/Abandoned_Office/Abandoned_Office_60/Abandoned_Office_60_Layout_14.txt<BR>
+maps/Missions/Abandoned_Office/Abandoned_Office_60/Abandoned_Office_60_Layout_15.txt<BR>
+	</TD>
+	<TD COLSPAN=2>
+	</TD>
+</TR>
+
+
+<TR VALIGN=top CLASS="tbox">
+	<TD>
+		Abandoned <BR>Warehouse Maps
+	</TD>
+
+	<TD COLSPAN=4>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_30/Abandoned_Warehouse_30_Layout_01_01.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_30/Abandoned_Warehouse_30_Layout_01_02.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_30/Abandoned_Warehouse_30_Layout_02_01.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_30/Abandoned_Warehouse_30_Layout_02_02.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_30/Abandoned_Warehouse_30_Layout_03_01.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_30/Abandoned_Warehouse_30_Layout_03_02.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_30/Abandoned_Warehouse_30_Layout_04_01.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_30/Abandoned_Warehouse_30_Layout_04_02.txt<BR>
+
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_30/Abandoned_Warehouse_30_Layout_05_01.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_30/Abandoned_Warehouse_30_Layout_05_02.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_30/Abandoned_Warehouse_30_Layout_06_01.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_30/Abandoned_Warehouse_30_Layout_06_02.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_30/Abandoned_Warehouse_30_Layout_07_01.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_30/Abandoned_Warehouse_30_Layout_07_02.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_30/Abandoned_Warehouse_30_Layout_08_01.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_45/Abandoned_Warehouse_45_Layout_01_01.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_45/Abandoned_Warehouse_45_Layout_03_02.txt<BR>
+
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_45/Abandoned_Warehouse_45_Layout_04_02.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_45/Abandoned_Warehouse_45_Layout_06_01.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_45/Abandoned_Warehouse_45_Layout_06_02.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_45/Abandoned_Warehouse_45_Layout_07_02.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_45/Abandoned_Warehouse_45_Layout_07_03.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_60/Abandoned_Warehouse_60_Layout_01_01.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_60/Abandoned_Warehouse_60_Layout_01_02.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_60/Abandoned_Warehouse_60_Layout_02_01.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_60/Abandoned_Warehouse_60_Layout_02_02.txt<BR>
+
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_60/Abandoned_Warehouse_60_Layout_03_01.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_60/Abandoned_Warehouse_60_Layout_03_02.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_60/Abandoned_Warehouse_60_Layout_04_01.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_60/Abandoned_Warehouse_60_Layout_04_02.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_60/Abandoned_Warehouse_60_Layout_05_01.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_60/Abandoned_Warehouse_60_Layout_05_02.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_60/Abandoned_Warehouse_60_Layout_06_01.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_60/Abandoned_Warehouse_60_Layout_06_02.txt<BR>
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_60/Abandoned_Warehouse_60_Layout_07_01.txt<BR>
+
+maps/Missions/Abandoned_Warehouse/Abandoned_Warehouse_60/Abandoned_Warehouse_60_Layout_07_02.txt<BR>
+	</TD>
+	<TD COLSPAN=2>
+	</TD>
+</TR>
+
+
+
+<TR VALIGN=top CLASS="tbox">
+	<TD>
+		Cargo Ship Maps
+	</TD>
+
+	<TD COLSPAN=4>
+maps/Missions/CargoShip/CargoShip_Layout_01.txt<BR>
+maps/Missions/CargoShip/CargoShip_Layout_02.txt<BR>
+maps/Missions/CargoShip/CargoShip_Layout_03.txt<BR>
+maps/Missions/CargoShip/CargoShip_Layout_04.txt<BR>
+maps/Missions/CargoShip/CargoShip_Layout_05.txt<BR>
+	</TD>
+	<TD COLSPAN=2>
+	</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top CLASS="tbox">
+	<TD>
+		Cave (Blue/Rough) <BR>Maps
+	</TD>
+	<TD COLSPAN=4>
+maps/Missions/Caves/Caves_30/Caves_30_Layout_01_01.txt<BR>
+maps/Missions/Caves/Caves_30/Caves_30_Layout_01_02.txt<BR>
+
+maps/Missions/Caves/Caves_30/Caves_30_Layout_02_01.txt<BR>
+maps/Missions/Caves/Caves_30/Caves_30_Layout_02_02.txt<BR>
+maps/Missions/Caves/Caves_30/Caves_30_Layout_03_01.txt<BR>
+maps/Missions/Caves/Caves_30/Caves_30_Layout_03_02.txt<BR>
+maps/Missions/Caves/Caves_30/Caves_30_Layout_04_01.txt<BR>
+maps/Missions/Caves/Caves_30/Caves_30_Layout_04_02.txt<BR>
+maps/Missions/Caves/Caves_30/Caves_30_Layout_05_01.txt<BR>
+maps/Missions/Caves/Caves_30/Caves_30_Layout_05_02.txt<BR>
+maps/Missions/Caves/Caves_30/Caves_30_Layout_06_01.txt<BR>
+
+maps/Missions/Caves/Caves_30/Caves_30_Layout_06_02.txt<BR>
+maps/Missions/Caves/Caves_30/Caves_30_Layout_07_01.txt<BR>
+maps/Missions/Caves/Caves_30/Caves_30_Layout_07_02.txt<BR>
+maps/Missions/Caves/Caves_30/Caves_30_Layout_08_01.txt<BR>
+maps/Missions/Caves/Caves_45/Caves_45_Layout_01_01.txt<BR>
+maps/Missions/Caves/Caves_45/Caves_45_Layout_01_02.txt<BR>
+maps/Missions/Caves/Caves_45/Caves_45_Layout_02_01.txt<BR>
+maps/Missions/Caves/Caves_45/Caves_45_Layout_02_02.txt<BR>
+maps/Missions/Caves/Caves_45/Caves_45_Layout_03_01.txt<BR>
+
+maps/Missions/Caves/Caves_45/Caves_45_Layout_03_02.txt<BR>
+maps/Missions/Caves/Caves_45/Caves_45_Layout_04_01.txt<BR>
+maps/Missions/Caves/Caves_45/Caves_45_Layout_04_02.txt<BR>
+maps/Missions/Caves/Caves_45/Caves_45_Layout_05_01.txt<BR>
+maps/Missions/Caves/Caves_45/Caves_45_Layout_05_02.txt<BR>
+maps/Missions/Caves/Caves_45/Caves_45_Layout_06_01.txt<BR>
+maps/Missions/Caves/Caves_45/Caves_45_Layout_06_02.txt<BR>
+maps/Missions/Caves/Caves_45/Caves_45_Layout_07_01.txt<BR>
+maps/Missions/Caves/Caves_45/Caves_45_Layout_07_02.txt<BR>
+
+maps/Missions/Caves/Caves_60/Caves_60_Layout_01_01.txt<BR>
+maps/Missions/Caves/Caves_60/Caves_60_Layout_01_02.txt<BR>
+maps/Missions/Caves/Caves_60/Caves_60_Layout_02_01.txt<BR>
+maps/Missions/Caves/Caves_60/Caves_60_Layout_02_02.txt<BR>
+maps/Missions/Caves/Caves_60/Caves_60_Layout_03_01.txt<BR>
+maps/Missions/Caves/Caves_60/Caves_60_Layout_03_02.txt<BR>
+maps/Missions/Caves/Caves_60/Caves_60_Layout_04_01.txt<BR>
+maps/Missions/Caves/Caves_60/Caves_60_Layout_04_02.txt<BR>
+maps/Missions/Caves/Caves_60/Caves_60_Layout_05_01.txt<BR>
+
+maps/Missions/Caves/Caves_60/Caves_60_Layout_05_02.txt<BR>
+maps/Missions/Caves/Caves_60/Caves_60_Layout_06_01.txt<BR>
+maps/Missions/Caves/Caves_60/Caves_60_Layout_06_02.txt<BR>
+maps/Missions/Caves/Caves_60/Caves_60_Layout_07_01.txt<BR>
+maps/Missions/Caves/Caves_60/Caves_60_Layout_07_02.txt<BR>
+	</TD>
+	<TD COLSPAN=2>
+	</TD>
+</TR>
+
+
+
+<TR VALIGN=top CLASS="tbox">
+	<TD>
+		Circle of Thorn <BR>(Oranbega) Maps
+	</TD>
+	<TD COLSPAN=4>
+maps/Missions/COT/CoT_30/CoT_30_Layout_01_01.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_01_02.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_01_03.txt<BR>
+
+maps/Missions/COT/CoT_30/CoT_30_Layout_01_04.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_01_05.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_02_01.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_02_02.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_02_03.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_02_04.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_02_05.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_02_06.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_03_01.txt<BR>
+
+maps/Missions/COT/CoT_30/CoT_30_Layout_03_02.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_03_03.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_03_04.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_04_01.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_04_02.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_04_03.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_04_04.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_04_05.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_05_01.txt<BR>
+
+maps/Missions/COT/CoT_30/CoT_30_Layout_05_02.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_05_03.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_05_04.txt<BR>
+maps/Missions/COT/CoT_30/CoT_30_Layout_05_05.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_01_01.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_01_02.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_01_03.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_01_04.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_01_05.txt<BR>
+
+maps/Missions/COT/COT_60/CoT_60_Layout_02_01.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_02_02.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_02_03.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_02_04.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_02_05.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_03_01.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_03_02.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_03_03.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_03_04.txt<BR>
+
+maps/Missions/COT/COT_60/CoT_60_Layout_03_05.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_04_01.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_04_02.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_04_03.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_04_04.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_04_05.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_05_01.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_05_02.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_05_03.txt<BR>
+
+maps/Missions/COT/COT_60/CoT_60_Layout_05_04.txt<BR>
+maps/Missions/COT/COT_60/CoT_60_Layout_05_05.txt<BR>
+	</TD>
+	<TD COLSPAN=2>
+	</TD>
+</TR>
+
+
+
+<TR VALIGN=top CLASS="tbox">
+	<TD>
+
+		Office Maps
+	</TD>
+	<TD COLSPAN=4>
+maps/Missions/Office/Office_30/Office_30_Layout_01_01.txt<BR>
+maps/Missions/Office/Office_30/Office_30_Layout_01_02.txt<BR>
+maps/Missions/Office/Office_30/Office_30_Layout_02_01.txt<BR>
+maps/Missions/Office/Office_30/Office_30_Layout_02_02.txt<BR>
+maps/Missions/Office/Office_30/Office_30_Layout_03_01.txt<BR>
+maps/Missions/Office/Office_30/Office_30_Layout_03_02.txt<BR>
+
+maps/Missions/Office/Office_30/Office_30_Layout_04_01.txt<BR>
+maps/Missions/Office/Office_30/Office_30_Layout_04_02.txt<BR>
+maps/Missions/Office/Office_30/Office_30_Layout_05_01.txt<BR>
+maps/Missions/Office/Office_30/Office_30_Layout_05_02.txt<BR>
+maps/Missions/Office/Office_30/Office_30_Layout_06_01.txt<BR>
+maps/Missions/Office/Office_30/Office_30_Layout_06_02.txt<BR>
+maps/Missions/Office/Office_30/Office_30_Layout_07_01.txt<BR>
+maps/Missions/Office/Office_30/Office_30_Layout_07_02.txt<BR>
+maps/Missions/Office/Office_30/Office_30_Layout_08_01.txt<BR>
+
+maps/Missions/Office/Office_45/Office_45_Layout_01_01.txt<BR>
+maps/Missions/Office/Office_45/Office_45_Layout_01_02.txt<BR>
+maps/Missions/Office/Office_45/Office_45_Layout_02_01.txt<BR>
+maps/Missions/Office/Office_45/Office_45_Layout_02_02.txt<BR>
+maps/Missions/Office/Office_45/Office_45_Layout_03_01.txt<BR>
+maps/Missions/Office/Office_45/Office_45_Layout_03_02.txt<BR>
+maps/Missions/Office/Office_45/Office_45_Layout_04_01.txt<BR>
+maps/Missions/Office/Office_45/Office_45_Layout_04_02.txt<BR>
+maps/Missions/Office/Office_45/Office_45_Layout_05_01.txt<BR>
+
+maps/Missions/Office/Office_45/Office_45_Layout_05_02.txt<BR>
+maps/Missions/Office/Office_45/Office_45_Layout_06_01.txt<BR>
+maps/Missions/Office/Office_45/Office_45_Layout_06_02.txt<BR>
+maps/Missions/Office/Office_45/Office_45_Layout_07_01.txt<BR>
+maps/Missions/Office/Office_45/Office_45_Layout_07_02.txt<BR>
+maps/Missions/Office/Office_45/Office_45_Layout_08_01.txt<BR>
+maps/Missions/Office/Office_60/Office_60_Layout_01_01.txt<BR>
+maps/Missions/Office/Office_60/Office_60_Layout_01_02.txt<BR>
+maps/Missions/Office/Office_60/Office_60_Layout_02_01.txt<BR>
+
+maps/Missions/Office/Office_60/Office_60_Layout_02_02.txt<BR>
+maps/Missions/Office/Office_60/Office_60_Layout_03_01.txt<BR>
+maps/Missions/Office/Office_60/Office_60_Layout_03_02.txt<BR>
+maps/Missions/Office/Office_60/Office_60_Layout_04_01.txt<BR>
+maps/Missions/Office/Office_60/Office_60_Layout_04_02.txt<BR>
+maps/Missions/Office/Office_60/Office_60_Layout_05_01.txt<BR>
+maps/Missions/Office/Office_60/Office_60_Layout_05_02.txt<BR>
+maps/Missions/Office/Office_60/Office_60_Layout_06_01.txt<BR>
+maps/Missions/Office/Office_60/Office_60_Layout_06_02.txt<BR>
+
+maps/Missions/Office/Office_60/Office_60_Layout_07_01.txt<BR>
+maps/Missions/Office/Office_60/Office_60_Layout_07_02.txt<BR>
+	</TD>
+	<TD COLSPAN=2>
+	</TD>
+</TR>
+
+
+
+<TR VALIGN=top CLASS="tbox">
+	<TD>
+
+		Outdoor Maps
+	</TD>
+	<TD COLSPAN=4>
+MAPS/MISSIONS/OUTDOOR_MISSIONS/OUTDOOR_CITY/OUTDOOR_CITY_01/OUTDOOR_CITY_01B.TXT<BR>
+MAPS/MISSIONS/OUTDOOR_MISSIONS/OUTDOOR_CITY/OUTDOOR_CITY_03/OUTDOOR_CITY_03A.TXT<BR>
+MAPS/MISSIONS/OUTDOOR_MISSIONS/OUTDOOR_FOREST/OUTDOOR_FOREST_01/OUTDOOR_FOREST_01C.TXT<BR>
+MAPS/MISSIONS/OUTDOOR_MISSIONS/OUTDOOR_FOREST/OUTDOOR_FOREST_02/OUTDOOR_FOREST_02A.TXT<BR>
+MAPS/MISSIONS/OUTDOOR_MISSIONS/OUTDOOR_GRAVEYARD/OUTDOOR_GRAVEYARD_01/OUTDOOR_GRAVEYARD_01A.TXT<BR>
+MAPS/MISSIONS/OUTDOOR_MISSIONS/OUTDOOR_GRAVEYARD/OUTDOOR_GRAVEYARD_02/OUTDOOR_GRAVEYARD_02B.TXT<BR>
+
+MAPS/MISSIONS/OUTDOOR_MISSIONS/OUTDOOR_INDUSTRIAL/OUTDOOR_INDUSTRIAL_02/OUTDOOR_INDUSTRIAL_02B.TXT<BR>
+MAPS/MISSIONS/OUTDOOR_MISSIONS/OUTDOOR_RUINED/OUTDOOR_RUINED_02/OUTDOOR_RUINED_02A.TXT<BR>
+MAPS/MISSIONS/OUTDOOR_MISSIONS/OUTDOOR_UNIQUE/OUTDOOR_UNIQUE_CITY_02/OUTDOOR_UNIQUE_CITY_02A.TXT<BR>
+MAPS/MISSIONS/OUTDOOR_MISSIONS/OUTDOOR_UNIQUE/OUTDOOR_UNIQUE_FOREST_02/OUTDOOR_UNIQUE_FOREST_02C.TXT<BR>
+MAPS/MISSIONS/OUTDOOR_MISSIONS/OUTDOOR_UNIQUE/OUTDOOR_UNIQUE_RUINED_01/OUTDOOR_UNIQUE_RUINED_01A.TXT<BR>
+	</TD>
+	<TD COLSPAN=2>
+<BR>
+Jannissey Heights<BR>
+
+<BR>
+Plato's Key<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+Council America<BR>
+Kronos Titan Finale<BR>
+	</TD>
+</TR>
+
+
+
+<TR VALIGN=top CLASS="tbox">
+	<TD>
+		Sewer Maps
+	</TD>
+	<TD COLSPAN=4>
+maps/Missions/Sewers/Sewers_30/Sewers_30_Layout_01_01.txt<BR>
+maps/Missions/Sewers/Sewers_30/Sewers_30_Layout_01_02.txt<BR>
+maps/Missions/Sewers/Sewers_30/Sewers_30_Layout_02_01.txt<BR>
+maps/Missions/Sewers/Sewers_30/Sewers_30_Layout_02_02.txt<BR>
+
+maps/Missions/Sewers/Sewers_30/Sewers_30_Layout_03_01.txt<BR>
+maps/Missions/Sewers/Sewers_30/Sewers_30_Layout_03_02.txt<BR>
+maps/Missions/Sewers/Sewers_30/Sewers_30_Layout_04_01.txt<BR>
+maps/Missions/Sewers/Sewers_30/Sewers_30_Layout_04_02.txt<BR>
+maps/Missions/Sewers/Sewers_30/Sewers_30_Layout_05_01.txt<BR>
+maps/Missions/Sewers/Sewers_30/Sewers_30_Layout_05_02.txt<BR>
+maps/Missions/Sewers/Sewers_30/Sewers_30_Layout_06_01.txt<BR>
+maps/Missions/Sewers/Sewers_30/Sewers_30_Layout_06_02.txt<BR>
+maps/Missions/Sewers/Sewers_30/Sewers_30_Layout_07_01.txt<BR>
+
+maps/Missions/Sewers/Sewers_30/Sewers_30_Layout_07_02.txt<BR>
+maps/Missions/Sewers/Sewers_30/Sewers_30_Layout_08_01.txt<BR>
+maps/Missions/Sewers/Sewers_45/Sewers_45_Layout_01_01.txt<BR>
+maps/Missions/Sewers/Sewers_45/Sewers_45_Layout_01_02.txt<BR>
+maps/Missions/Sewers/Sewers_45/Sewers_45_Layout_02_01.txt<BR>
+maps/Missions/Sewers/Sewers_45/Sewers_45_Layout_02_02.txt<BR>
+maps/Missions/Sewers/Sewers_45/Sewers_45_Layout_03_01.txt<BR>
+maps/Missions/Sewers/Sewers_45/Sewers_45_Layout_03_02.txt<BR>
+maps/Missions/Sewers/Sewers_45/Sewers_45_Layout_04_01.txt<BR>
+
+maps/Missions/Sewers/Sewers_45/Sewers_45_Layout_04_02.txt<BR>
+maps/Missions/Sewers/Sewers_45/Sewers_45_Layout_05_01.txt<BR>
+maps/Missions/Sewers/Sewers_45/Sewers_45_Layout_05_02.txt<BR>
+maps/Missions/Sewers/Sewers_45/Sewers_45_Layout_06_01.txt<BR>
+maps/Missions/Sewers/Sewers_45/Sewers_45_Layout_06_02.txt<BR>
+maps/Missions/Sewers/Sewers_45/Sewers_45_Layout_07_01.txt<BR>
+maps/Missions/Sewers/Sewers_45/Sewers_45_Layout_07_02.txt<BR>
+maps/Missions/Sewers/Sewers_45/Sewers_45_Layout_07_03.txt<BR>
+maps/Missions/Sewers/Sewers_60/Sewers_60_Layout_01_01.txt<BR>
+
+maps/Missions/Sewers/Sewers_60/Sewers_60_Layout_01_02.txt<BR>
+maps/Missions/Sewers/Sewers_60/Sewers_60_Layout_02_01.txt<BR>
+maps/Missions/Sewers/Sewers_60/Sewers_60_Layout_02_02.txt<BR>
+maps/Missions/Sewers/Sewers_60/Sewers_60_Layout_03_01.txt<BR>
+maps/Missions/Sewers/Sewers_60/Sewers_60_Layout_03_02.txt<BR>
+maps/Missions/Sewers/Sewers_60/Sewers_60_Layout_04_01.txt<BR>
+maps/Missions/Sewers/Sewers_60/Sewers_60_Layout_04_02.txt<BR>
+maps/Missions/Sewers/Sewers_60/Sewers_60_Layout_05_01.txt<BR>
+maps/Missions/Sewers/Sewers_60/Sewers_60_Layout_05_02.txt<BR>
+
+maps/Missions/Sewers/Sewers_60/Sewers_60_Layout_06_01.txt<BR>
+maps/Missions/Sewers/Sewers_60/Sewers_60_Layout_06_02.txt<BR>
+maps/Missions/Sewers/Sewers_60/Sewers_60_Layout_07_01.txt<BR>
+maps/Missions/Sewers/Sewers_60/Sewers_60_Layout_07_02.txt<BR>
+maps/Missions/Sewers/Sewers_60/Sewers_60_Layout_07_03.txt<BR>
+	</TD>
+	<TD COLSPAN=2>
+	</TD>
+</TR>
+
+
+
+
+<TR VALIGN=top CLASS="tbox">
+	<TD>
+		Smooth Cave <BR>Maps
+	</TD>
+	<TD COLSPAN=4>
+maps/Missions/SmoothCaves/SmoothCaves_45/SmoothCaves_45_Layout_01.txt<BR>
+maps/Missions/SmoothCaves/SmoothCaves_45/SmoothCaves_45_Layout_02.txt<BR>
+
+maps/Missions/SmoothCaves/SmoothCaves_45/SmoothCaves_45_Layout_03.txt<BR>
+maps/Missions/SmoothCaves/SmoothCaves_45/SmoothCaves_45_Layout_04.txt<BR>
+maps/Missions/SmoothCaves/SmoothCaves_45/SmoothCaves_45_Layout_05.txt<BR>
+maps/Missions/SmoothCaves/SmoothCaves_45/SmoothCaves_45_Layout_06.txt<BR>
+maps/Missions/SmoothCaves/SmoothCaves_45/SmoothCaves_45_Layout_07.txt<BR>
+maps/Missions/SmoothCaves/SmoothCaves_45/SmoothCaves_45_Layout_08.txt<BR>
+maps/Missions/SmoothCaves/SmoothCaves_45/SmoothCaves_45_Layout_09.txt<BR>
+maps/Missions/SmoothCaves/SmoothCaves_45/SmoothCaves_45_Layout_10.txt<BR>
+	</TD>
+
+	<TD COLSPAN=2>
+	</TD>
+</TR>
+
+
+
+<TR VALIGN=top CLASS="tbox">
+	<TD>
+		Tech Maps
+	</TD>
+	<TD COLSPAN=4>
+maps/Missions/Tech/Tech_30/tech_30_Layout_01_01.txt<BR>
+
+maps/Missions/Tech/Tech_30/tech_30_Layout_01_02.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_01_03.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_01_04.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_02_01.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_02_02.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_02_03.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_02_04.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_03_01.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_03_02.txt<BR>
+
+maps/Missions/Tech/Tech_30/tech_30_Layout_03_03.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_03_04.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_04_01.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_04_02.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_04_03.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_04_04.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_05_01.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_05_02.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_05_03.txt<BR>
+
+maps/Missions/Tech/Tech_30/tech_30_Layout_06_01.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_06_02.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_06_03.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_07_01.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_07_02.txt<BR>
+maps/Missions/Tech/Tech_30/tech_30_Layout_07_03.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_01_01.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_01_02.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_01_03.txt<BR>
+
+maps/Missions/Tech/Tech_45/tech_45_Layout_02_01.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_02_02.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_02_03.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_03_01.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_03_02.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_03_03.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_04_01.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_04_02.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_04_03.txt<BR>
+
+maps/Missions/Tech/Tech_45/tech_45_Layout_05_01.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_05_02.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_05_03.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_06_01.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_06_02.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_06_03.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_07_01.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_07_02.txt<BR>
+maps/Missions/Tech/Tech_45/tech_45_Layout_07_03.txt<BR>
+
+maps/Missions/Tech/Tech_60/Tech_60_Layout_01_01.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_01_02.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_01_03.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_01_04.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_02_01.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_02_02.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_02_03.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_02_04.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_03_01.txt<BR>
+
+maps/Missions/Tech/Tech_60/Tech_60_Layout_03_02.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_03_03.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_03_04.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_04_01.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_04_02.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_04_03.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_05_01.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_05_02.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_05_03.txt<BR>
+
+maps/Missions/Tech/Tech_60/Tech_60_Layout_06_01.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_06_02.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_06_03.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_07_01.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_07_02.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_07_03.txt<BR>
+maps/Missions/Tech/Tech_60/Tech_60_Layout_07_04.txt<BR>
+	</TD>
+	<TD COLSPAN=2>
+
+	</TD>
+</TR>
+
+
+
+
+
+<TR VALIGN=top CLASS="tbox">
+	<TD>
+		Unique Maps
+	</TD>
+	<TD COLSPAN=4>
+MAPS/MISSIONS/UNIQUE/ARTIFIED/CLOCKWORK_KINGDOM.TXT<BR>
+
+MAPS/MISSIONS/UNIQUE/ARTIFIED/CREY_HERO_LAB.TXT<BR>
+MAPS/MISSIONS/UNIQUE/ARTIFIED/DR_VAHZILOKS_LAIR.TXT<BR>
+MAPS/MISSIONS/UNIQUE/ARTIFIED/TSOO_TATTOO_PARLOR.TXT<BR>
+MAPS/MISSIONS/UNIQUE/ARTIFIED/TYRANTS_LAIR.TXT<BR>
+MAPS/MISSIONS/UNIQUE/DOORMISSIONS/5TH_COLUMN_WAREHOUSE.TXT<BR>
+MAPS/MISSIONS/UNIQUE/DOORMISSIONS/ABANDONED_OFFICE_30_LOCKDOORS.TXT<BR>
+MAPS/MISSIONS/UNIQUE/DOORMISSIONS/CAVES_60_LOCKDOORS.TXT<BR>
+MAPS/MISSIONS/UNIQUE/DOORMISSIONS/FREAKSHOW_ABANDONED_OFFICE.TXT<BR>
+MAPS/MISSIONS/UNIQUE/DOORMISSIONS/HELLIONS_ABANDONED_OFFICE.TXT<BR>
+
+MAPS/MISSIONS/UNIQUE/DOORMISSIONS/INFERNALS_LAIR.TXT<BR>
+MAPS/MISSIONS/UNIQUE/DOORMISSIONS/LOUS_GARAGE_60.TXT<BR>
+MAPS/MISSIONS/UNIQUE/DOORMISSIONS/OUTCASTS_LAIR.TXT<BR>
+MAPS/MISSIONS/UNIQUE/DOORMISSIONS/OUTDOOR_CARNIVAL_COMMERCIAL.TXT<BR>
+MAPS/MISSIONS/UNIQUE/DOORMISSIONS/SKULLS_WAREHOUSE_RAVE.TXT<BR>
+MAPS/MISSIONS/UNIQUE/DOORMISSIONS/TECH_30_CAPE.TXT<BR>
+MAPS/MISSIONS/UNIQUE/DOORMISSIONS/WAREHOUSE_45_LOCKDOORS.TXT<BR>
+MAPS/MISSIONS/UNIQUE/SHADOWSHARD/CHANTRY/HAZARD_06_03_CHANTRY.TXT<BR>
+MAPS/MISSIONS/UNIQUE/SHADOWSHARD/RULADAK/HAZARD_06_02_RULADAK.TXT<BR>
+
+MAPS/MISSIONS/UNIQUE/STRIGAISLE/COUNCIL_FACTORY1.TXT<BR>
+MAPS/MISSIONS/UNIQUE/STRIGAISLE/COUNCIL_FACTORY2.TXT<BR>
+MAPS/MISSIONS/UNIQUE/STRIGAISLE/COUNCIL_MISSION1.TXT<BR>
+MAPS/MISSIONS/UNIQUE/STRIGAISLE/COUNCIL_MISSION2.TXT<BR>
+MAPS/MISSIONS/UNIQUE/STRIGAISLE/COUNCIL_MISSION3.TXT<BR>
+MAPS/MISSIONS/UNIQUE/STRIGAISLE/COUNCIL_RADARROOM1.TXT<BR>
+MAPS/MISSIONS/UNIQUE/STRIGAISLE/COUNCIL_RADARROOM2.TXT<BR>
+MAPS/MISSIONS/UNIQUE/STRIGAISLE/COUNCIL_VAMPYRI_LAIR.TXT<BR>
+MAPS/MISSIONS/UNIQUE/TRIALROOMS/CAVERNOFTRANSCENDENCE/HAZARD_01_02_ROOM.TXT<BR>
+
+MAPS/MISSIONS/UNIQUE/TRIALROOMS/EDEN/TRIAL_04_01_ROOM.TXT<BR>
+MAPS/MISSIONS/UNIQUE/TRIALROOMS/SEWERS/TRIAL_01_01_ROOM.TXT<BR>
+MAPS/MISSIONS/UNIQUE/TRIALROOMS/TERRAVOLTA/TRIAL_03_01_ROOM.TXT<BR>
+	</TD>
+	<TD COLSPAN=2>
+Clockwork King's Lair<BR>
+Crey Lab<BR>
+Dr. Vahzilok's Lair<BR>
+Tsoo Tattoo Parlor<BR>
+
+Tyrant's Lair<BR>
+Council Warehouse<BR>
+<BR>
+<BR>
+<BR>
+Hellions' Office<BR>
+Infernal's Lair<BR>
+Lou's Garage<BR>
+Frostfire's Lair<BR>
+Carnival Tents<BR>
+
+Skull Rave<BR>
+Cape Mission<BR>
+<BR>
+Faathim in Danger<BR>
+Ruladak<BR>
+Striga Task Force<BR>
+Striga Task Force<BR>
+Striga Task Force<BR>
+Striga Task Force<BR>
+
+Striga Task Force<BR>
+Striga Task Force<BR>
+Striga Task Force<BR>
+Vampyr Lab<BR>
+Cavern of Transendence<BR>
+Eden Trial<BR>
+Sewer Trial<BR>
+Terra Volta Reactor<BR>
+	</TD>
+
+</TR>
+
+
+
+
+<TR VALIGN=top CLASS="tbox">
+	<TD>
+		Warehouse Maps
+	</TD>
+	<TD COLSPAN=4>
+maps/Missions/Warehouse/Warehouse_15/Warehouse_15_Layout_01_01.txt<BR>
+maps/Missions/Warehouse/Warehouse_15/Warehouse_15_Layout_01_02.txt<BR>
+
+maps/Missions/Warehouse/Warehouse_15/Warehouse_15_Layout_01_03.txt<BR>
+maps/Missions/Warehouse/Warehouse_15/Warehouse_15_Layout_01_04.txt<BR>
+maps/Missions/Warehouse/Warehouse_15/Warehouse_15_Layout_01_05.txt<BR>
+maps/Missions/Warehouse/Warehouse_30/Warehouse_30_Layout_01_01.txt<BR>
+maps/Missions/Warehouse/Warehouse_30/Warehouse_30_Layout_01_02.txt<BR>
+maps/Missions/Warehouse/Warehouse_30/Warehouse_30_Layout_01_03.txt<BR>
+maps/Missions/Warehouse/Warehouse_30/Warehouse_30_Layout_02_01.txt<BR>
+maps/Missions/Warehouse/Warehouse_30/Warehouse_30_Layout_02_02.txt<BR>
+maps/Missions/Warehouse/Warehouse_30/Warehouse_30_Layout_02_03.txt<BR>
+
+maps/Missions/Warehouse/Warehouse_30/Warehouse_30_Layout_03_01.txt<BR>
+maps/Missions/Warehouse/Warehouse_30/Warehouse_30_Layout_03_02.txt<BR>
+maps/Missions/Warehouse/Warehouse_30/Warehouse_30_Layout_03_03.txt<BR>
+maps/Missions/Warehouse/Warehouse_30/Warehouse_30_Layout_04_01.txt<BR>
+maps/Missions/Warehouse/Warehouse_30/Warehouse_30_Layout_04_02.txt<BR>
+maps/Missions/Warehouse/Warehouse_30/Warehouse_30_Layout_04_03.txt<BR>
+maps/Missions/Warehouse/Warehouse_30/Warehouse_30_Layout_05_01.txt<BR>
+maps/Missions/Warehouse/Warehouse_30/Warehouse_30_Layout_05_02.txt<BR>
+maps/Missions/Warehouse/Warehouse_30/Warehouse_30_Layout_05_03.txt<BR>
+
+maps/Missions/Warehouse/Warehouse_45/Warehouse_45_Layout_01_01.txt<BR>
+maps/Missions/Warehouse/Warehouse_45/Warehouse_45_Layout_01_02.txt<BR>
+maps/Missions/Warehouse/Warehouse_45/Warehouse_45_Layout_01_03.txt<BR>
+maps/Missions/Warehouse/Warehouse_45/Warehouse_45_Layout_02_01.txt<BR>
+maps/Missions/Warehouse/Warehouse_45/Warehouse_45_Layout_02_02.txt<BR>
+maps/Missions/Warehouse/Warehouse_45/Warehouse_45_Layout_02_03.txt<BR>
+maps/Missions/Warehouse/Warehouse_45/Warehouse_45_Layout_03_01.txt<BR>
+maps/Missions/Warehouse/Warehouse_45/Warehouse_45_Layout_03_02.txt<BR>
+maps/Missions/Warehouse/Warehouse_45/Warehouse_45_Layout_03_03.txt<BR>
+
+maps/Missions/Warehouse/Warehouse_45/Warehouse_45_Layout_04_01.txt<BR>
+maps/Missions/Warehouse/Warehouse_45/Warehouse_45_Layout_04_02.txt<BR>
+maps/Missions/Warehouse/Warehouse_45/Warehouse_45_Layout_04_03.txt<BR>
+maps/Missions/Warehouse/Warehouse_45/Warehouse_45_Layout_05_01.txt<BR>
+maps/Missions/Warehouse/Warehouse_45/Warehouse_45_Layout_05_02.txt<BR>
+maps/Missions/Warehouse/Warehouse_45/Warehouse_45_Layout_05_03.txt<BR>
+maps/Missions/Warehouse/Warehouse_60/Warehouse_60_Layout_01_01.txt<BR>
+maps/Missions/Warehouse/Warehouse_60/Warehouse_60_Layout_01_02.txt<BR>
+maps/Missions/Warehouse/Warehouse_60/Warehouse_60_Layout_01_03.txt<BR>
+
+maps/Missions/Warehouse/Warehouse_60/Warehouse_60_Layout_02_01.txt<BR>
+maps/Missions/Warehouse/Warehouse_60/Warehouse_60_Layout_02_02.txt<BR>
+maps/Missions/Warehouse/Warehouse_60/Warehouse_60_Layout_02_03.txt<BR>
+maps/Missions/Warehouse/Warehouse_60/Warehouse_60_Layout_03_01.txt<BR>
+maps/Missions/Warehouse/Warehouse_60/Warehouse_60_Layout_03_02.txt<BR>
+maps/Missions/Warehouse/Warehouse_60/Warehouse_60_Layout_03_03.txt<BR>
+maps/Missions/Warehouse/Warehouse_60/Warehouse_60_Layout_04_01.txt<BR>
+maps/Missions/Warehouse/Warehouse_60/Warehouse_60_Layout_04_02.txt<BR>
+maps/Missions/Warehouse/Warehouse_60/Warehouse_60_Layout_04_03.txt<BR>
+
+maps/Missions/Warehouse/Warehouse_60/Warehouse_60_Layout_05_01.txt<BR>
+maps/Missions/Warehouse/Warehouse_60/Warehouse_60_Layout_05_02.txt<BR>
+maps/Missions/Warehouse/Warehouse_60/Warehouse_60_Layout_05_03.txt<BR>
+	</TD>
+	<TD COLSPAN=2>
+	</TD>
+</TR>
+
+
+
+
+</TABLE>
+
+</BODY>
+</HTML>

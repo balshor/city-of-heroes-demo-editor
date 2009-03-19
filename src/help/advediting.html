@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+<title>City of Heroes Demo Editor: Advanced Editing</title>
+</head>
+<body lang="en-US">
+<H1>Advanced Editing</h1>
+<p>This page describes the wizards that are built into the program.
+Theoretically, somebody could develop additional wizard that can be
+loaded into the program; however, I consider this a very unlikely
+possibility.</p>
+<p>Short descriptions of the wizards by clicking on the "Wizards"
+button on the main window's toolbar, then highlighting a wizard and
+clicking on the "About Wizard" button.</p>
+<h3>Interpolation Wizard</h3>
+<p>This wizard can create linear, parabolic, or circular movement
+paths. (For parametric movement paths, see the "Generate POS/PYR by
+formula" wizard.) To use it, select the type of interpolation, then
+enter the parameters for the new movement path:</p>
+<dl>
+	<dt>Linear Interpolation</dt>
+	<dd>Defines a straight-line path from the start to the end points.
+	Can also generate PYR commands for a constant-rate-of-turn from the
+	start PYR to the end PYR.</dd>
+	<dt>Parabolic Interpolation</dt>
+	<dd>Defines a parabolic path from the start to the end points with
+	the specified max height. Useful for creating jumps.</dd>
+	<dt>Circular Interpolation</dt>
+	<dd>Defines a circular path starting at the given point and
+	rotating around the specified center. Can generate either horizontal or
+	vertical circles. Note that you can specify fractional revolutions for
+	less than a full circle.</dd>
+</dl>
+<h3>Smart Cut Wizard</h3>
+<p>This wizard attempts to remove all commands in the specified time
+range while retaining the matching NEW/DEL and FX/FXDESTROY pairs. It
+can also keep the last MOV or POS/PYR commands in the block. Note that
+this wizard can take a while to process the commands; a progress bar
+will be coming in a future version.</p>
+<h3>Costume Import/Export Wizard</h3>
+<p>This wizard will copy costumes from one demo to another. (A
+costume is defined by COSTUME, NPC, and PARTSNAME commands.) Simply
+choose the source demo, reference number, and NEW command (in case
+multiple costumes are defined for one reference) and the same three
+things for the target.</p>
+<h3>Fix Ghosts Wizard</h3>
+<p>Occasionally, demos will have commands for references that have
+already been deleted (via a DEL command). These commands can make the
+reference reappear in the demo after it should have disappeared. This
+wizard will automatically remove these "ghost" commands.
+<h3>Generate PYR relative to POS</h3>
+<p>This command can automatically generate PYR commands based on the
+POS commands already in the demo. There are two options for how these
+commands will be generated:</
+<dl>
+	<dt>by movement path</dt>
+	<dd>This mode points the reference in the direction of its
+	movement. This allows you to create a POS movement path (with the
+	Interpolation wizard, for example) without worrying about creating the
+	PYR commands.</dd>
+	<dt>by another reference</dt>
+	<dd>This mode points the reference at another reference. This is
+	useful for doing things like having a moving camera track a moving
+	reference.</dd>
+</dl>
+<p>Fixed offsets can be added in either mode, which will cause the
+PYR commands to point off-target. This allows you to point the camera at
+a character, but have the character in the right half of the screen, for
+example.</p>
+<h3>Generate POS/PYR by formula</h3>
+<p>This wizard allows you to generate POS and PYR commands
+parametrically (ie, by formula). The formula parser understands a
+reasonably good number of mathematical functions, including
+trigonometry. This wizard is for people very comfortable with
+mathematics.</p>
+<h3>Large-File Filter Wizard</h3>
+<p>Occasionally, you may need to work with an extremely large demo
+file. Normally, the editor loads an entire file into memory before you
+can manipulate it. With this wizard, you can establish a set a filters
+and run a large file through it without loading the entire file at once.
+For example, if you have a two-hour demo file and only want to extract
+the costume commands, you can set filters to extract all COSTUME and
+PARTSNAME lines. These will be loaded into a new demo.</p>
+<h3>Extract Movement Path</h3>
+<p>This wizard extracts movement paths from specially recorded
+demos. The idea is that movement paths can be difficult to create
+outside of CoH, so we'll just run a character through several movement
+paths in the game and record his movements. The character will send
+himself a different tell in-game to indicate the start and end of each
+movement path. (This allows a player to record multiple movement paths
+in a single demo.) The extracted paths will be placed in separate new
+demos.</p>
+<h3>CAM Coordinate Wizard</h3>
+<p>One of the annoyances of working with demo files is that the
+camera (CAM reference) uses a different PYR frame from normal
+characters. So, a list of PYR commands for a character cannot be simply
+copied over to the CAM reference for use by the camera. This wizard
+converts the CAM PYR coordinates between the standard and CAM frames of
+reference. (The conversion is self-inverting, so run the wizard twice to
+undo it.)</p>
+<h3>Command Stripping Wizard</h3>
+<p>By default, demos record a lot of textual information that you
+may not want appearing in your demo. Examples include player names, chat
+bubbles, damage numbers, etc. This wizard can strip these commands out
+of the demo for you.</p>
+<h3>POS Analysis Wizard</h3>
+<p>This is a simple wizard I wrote that will determine the minimum
+and maximum for each of the POS coordinates in the demo. This is mostly
+useful to determine how much physical space is being used in the virtual
+world.</p>
+<h3>Dummy Player Wizard</h3>
+<p>For efficiency reasons, the game engine only renders video and
+sound in a certain radius around the player. Who the player is is
+determined by the "Player" command. This can be annoying if you move the
+camera or delete the PC. This wizard will create an invisible NPC,
+designate it as the player, and have it shadow the camera around. Thus,
+the action around the camera is always rendered.</p>
+<h3>Embedded Feedback Wizard</h3>
+<p>It can be difficult figuring out which reference belongs to each
+character in the demo. This wizard will add chat spam so each reference
+will shout out its reference number. They can also shout out the current
+time, so you can identify the pieces of the demo with interesting
+action. If you want to be able to automatically remove this chat spam
+later, include a unique chat suffix so the wizard can identify which
+chat messages are the spam.</p>
+<h3>Vanity Demo Creation Wizard</h3>
+<p>After editing a costume, you may want to make sure that it looks
+like what you want in the game. This wizard will extract the costume,
+stick your character on Ms. Liberty's platform in Atlas Park, and give
+you a 360 degree view of what your character is wearing. You can use
+this as a tool for editing demos or for inflating your ego.</p>
+</body>
+</html>

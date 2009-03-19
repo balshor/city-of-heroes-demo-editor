@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE map PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN" "http://java.sun.com/products/javahelp/map_1_0.dtd">
+<map version="1.0">
+  
+  <mapID target="maps" url="maps.html"/>
+  <mapID target="maps.arena" url="maps.html#arenamaps"/>
+  <mapID target="maps.mission" url="maps.html#missionmaps"/>
+  <mapID target="maps.city" url="maps.html#citymaps"/>
+  
+  <mapID target="basics" url="basics.html"/>
+  <mapID target="basics.demofile" url="basics.html#demofile"/>
+  <mapID target="basics.record" url="basics.html#record"/>
+  <mapID target="basics.play" url="basics.html#play"/>
+  
+  <mapID target="npc.carnival" url="npc.html#carnival"/>
+  <mapID target="npc.vehicles" url="npc.html#vehicles"/>
+  <mapID target="npc.stores" url="npc.html#stores"/>
+  <mapID target="npc.warriors" url="npc.html#warriors"/>
+  <mapID target="npc.crey" url="npc.html#crey"/>
+  <mapID target="npc.objects" url="npc.html#objects"/>
+  <mapID target="npc.trainers" url="npc.html#trainers"/>
+  <mapID target="npc.void" url="npc.html#void"/>
+  <mapID target="npc.tsoo" url="npc.html#tsoo"/>
+  <mapID target="npc.council" url="npc.html#council"/>
+  <mapID target="npc.lost" url="npc.html#lost"/>
+  <mapID target="npc.outcasts" url="npc.html#outcasts"/>
+  <mapID target="npc.5thcolumn" url="npc.html#5thcolumn"/>
+  <mapID target="npc.hellions" url="npc.html#hellions"/>
+  <mapID target="npc.axis" url="npc.html#axis"/>
+  <mapID target="npc.halloween" url="npc.html#halloween"/>
+  <mapID target="npc.rularuu" url="npc.html#rularuu"/>
+  <mapID target="npc.de" url="npc.html#de"/>
+  <mapID target="npc.skyraiders" url="npc.html#sky"/>
+  <mapID target="npc.pets" url="npc.html#pets"/>
+  <mapID target="npc.nemesis" url="npc.html#nemesis"/>
+  <mapID target="npc.clockwork" url="npc.html#clockwork"/>
+  <mapID target="npc.trolls" url="npc.html#trolls"/>
+  <mapID target="npc.tfm" url="npc.html#tfnpcs"/>
+  <mapID target="npc.knives" url="npc.html#knives"/>
+  <mapID target="npc.malta" url="npc.html#malta"/>
+  <mapID target="npc.family" url="npc.html#family"/>
+  
+  <mapID target="editing" url="editing.html"/>
+  <mapID target="editing.editsingle" url="editing.html#editsingle"/>
+  <mapID target="editing.editmultiple" url="editing.html#editmultiple"/>
+  <mapID target="editing.moveupdown" url="editing.html#moveupdown"/>
+  <mapID target="editing.resort" url="editing.html#resort"/>
+  <mapID target="editing.insertdelete" url="editing.html#insertdelete"/>
+  <mapID target="editing.importexport" url="editing.html#importexport"/>
+  
+  <mapID target="commands" url="commands.html"/>
+  <mapID target="commands.fx" url="commands.html#fx"/>
+  <mapID target="commands.xlu" url="commands.html#xlu"/>
+  <mapID target="commands.version" url="commands.html#version"/>
+  <mapID target="commands.fxscale" url="commands.html#fxscale"/>
+  <mapID target="commands.map" url="commands.html#map"/>
+  <mapID target="commands.pyr" url="commands.html#pyr"/>
+  <mapID target="commands.chat" url="commands.html#chat"/>
+  <mapID target="commands.target" url="commands.html#target"/>
+  <mapID target="commands.seq" url="commands.html#seq"/>
+  <mapID target="commands.float" url="commands.html#float"/>
+  <mapID target="commands.new" url="commands.html#new"/>
+  <mapID target="commands.origin" url="commands.html#origin"/>
+  
+  <mapID target="format" url="format.html"/>
+  <mapID target="format.line.argument" url="format.html#arg"/>
+  <mapID target="format.line.reference" url="format.html#ref"/>
+  <mapID target="format.line.command" url="format.html#cmd"/>
+  <mapID target="format.line" url="format.html#line"/>
+  <mapID target="format.line.time" url="format.html#time"/>
+  <mapID target="format.pospyr" url="format.html#pospyr"/>
+  <mapID target="format.valid" url="format.html#valid"/>
+  
+  <mapID target="about" url="about.html"/>
+  
+  <mapID target="advediting" url="advediting.html"/>
+  
+  <mapID target="filters" url="filters.html"/>
+  
+  <mapID target="fx.enemy" url="fx.html#enemyfx"/>
+  <mapID target="npc.igneous" url="npc.html#igneous"/>
+  <mapID target="npc.vahz" url="npc.html#vahz"/>
+  <mapID target="npc.cot" url="npc.html#CoT"/>
+  <mapID target="npc.bp" url="npc.html#bp"/>
+  <mapID target="commands.floatdmg" url="commands.html#floatdmg"/>
+  <mapID target="commands.player" url="commands.html#player"/>
+  <mapID target="npc.kheld" url="npc.html#kheld"/>
+  <mapID target="commands.partsname" url="commands.html#partsname"/>
+  <mapID target="npc.freakshow" url="npc.html#freakshow"/>
+  <mapID target="tutorial" url="tutorial.html"/>
+  <mapID target="basics.thisprogram" url="basics.html#thisprogram"/>
+  <mapID target="npc.soldiers" url="npc.html#soldiers"/>
+  <mapID target="npc.praetorians" url="npc.html#praets"/>
+  <mapID target="fx" url="fx.html"/>
+  <mapID target="npc.hydra" url="npc.html#hydra"/>
+  <mapID target="npc.av" url="npc.html#avs"/>
+  <mapID target="empty" url="empty.html"/>
+  <mapID target="npc" url="npc.html"/>
+  <mapID target="fx.generic" url="fx.html#genfx"/>
+  <mapID target="fx.weapons" url="fx.html#weapfx"/>
+  <mapID target="commands.npc" url="commands.html#npc"/>
+  <mapID target="npc.cabal" url="npc.html#cabal"/>
+  <mapID target="commands.pos" url="commands.html#pos"/>
+  <mapID target="commands.time" url="commands.html#time"/>
+  <mapID target="npc.rikti" url="npc.html#rikti"/>
+  <mapID target="fx.powers" url="fx.html#powerfx"/>
+  <mapID target="npc.turrets" url="npc.html#turrets"/>
+  <mapID target="mov" url="mov.html"/>
+  <mapID target="commands.del" url="commands.html#del"/>
+  <mapID target="npc.skulls" url="npc.html#skulls"/>
+  <mapID target="commands.mov" url="commands.html#mov"/>
+  <mapID target="commands.costume" url="commands.html#costume"/>
+</map>

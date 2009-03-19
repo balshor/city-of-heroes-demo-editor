@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+<title>City of Heroes Demo Editor: Editing Help</title>
+</head>
+<body lang="en-US">
+<H1>Basic Editing</h1>
+<p>This page describes the use of the buttons on the toolbar of the
+individual demo windows.</p>
+<a name="editsingle">
+<h3>Editing a single lines</h3>
+</a>
+<p>You can edit a single lines in two ways. First, you can simply
+double-click on an entry in the center table. Second, you can select an
+entry and make your edits in the Command Information panel in the upper
+right corner of the demo window.</p>
+<a name="editmultiple">
+<h3>Editing multiple lines</h3>
+</a>
+<p>To edit multiple lines at once, first create one or more filters
+so only the lines you want to edit are visible. There are a number of
+different operations you can now perform on the visible lines using the
+buttons at the top of the demo window:</p>
+<dl>
+	<dt>Delete all</dt>
+	<dd>Deletes all visible lines.</dd>
+	<dt>Change all</dt>
+	<dd>Change all visible lines to have the specified time,
+	reference, command, and/or arguments.</dd>
+	<dt>Time shift</dt>
+	<dd>Adds the number you specify to the time of all visible lines.
+	Negative numbers subtract.</dd>
+	<dt>Time scale</dt>
+	<dd>Compresses or stretches the timespan of the visible lines.
+	Times can be scaled so they either fit a defined time range or by a
+	fixed ratio.</dd>
+	<dt>Translate POS</dt>
+	<dd>Adds the numbers you specify to all visible POS lines.
+	Negative numbers subtract. This is useful for moving an entire scene
+	from one place on a map to another.</dd>
+</dl>
+<a name="insertdelete">
+<h3>Inserting and deleting lines</h3>
+</a>
+<p>The insert button will insert a new line before the currently
+selected line. The delete button will delete the currently selected
+line. The delete all button will delete all currently visible lines.</p>
+<a name="moveupdown">
+<h3>Reordering lines</h3>
+</a>
+<p>The "Move Up" and "Move Down" buttons will move the selected line
+up or down. Note that if more than one line is selected, this moves the
+first (topmost) selected line up or down.</p>
+<a name="resort">
+<h3>Resorting lines</h3>
+<p>The "Resort" button reorders all commands so they appear in
+chronological order. The order of commands with at the same time is not
+changed. Currently, this command does not sort according to the command
+name, although this is planned for a future version.</p>
+<a name="importexport">
+<h3>Importing and exporting lines</h3>
+</a>
+<p>The "Import Commands" button will copy all lines from another
+demo to the end of the current demo. The "Export Commands" button will
+copy all visible lines from the current demo into a new demo.</p>
+</body>
+</html>

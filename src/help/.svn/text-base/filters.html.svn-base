@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+<title>City of Heroes Demo Editor: Filter Help</title>
+</head>
+<body lang="en-US">
+<H1>Filters</h1>
+<p>Filters are the primary tool that you will use in order to select
+demo commands in order to choose which lines that various actions will
+affect.</p>
+<h3>Adding and removing a filter</h3>
+<p>Filters are created using the "Add Filter" button the lower right
+corner of the demo window. Clicking on the button will open a dialog box
+where you can enter various criteria for the filter to apply. A line of
+the demo will "pass" the filter if it matches at least one of the
+criteria that you enter on each of the four parts of the filter. (If you
+don't enter anything on one of the four parts of the line, it is
+ignored.) Lines of the demo that "pass" the filter are either shown or
+hidden, depending on which radio button is selected in the dialog.</p>
+<p>Once added, a filter can be removed by selecting it and clicking
+on the "Remove Filter" button. The "Remove All" button will remove all
+filters from the list.</p>
+<h3>Applying multiple filters</h3>
+<p>Each filter you create is added to the list of filters in the
+lower right corner of the demo window. To be visible, a line of the demo
+must pass EVERY filter on the list.</p>
+<h3>Saving and loading filter lists</h3>
+<p>You can save lists of filters to reuse later. Simply click on the
+"Save Filters" button and enter a name; the filter list will now be
+available later on by clicking on the "Load Filters" button. Your lists
+of filters will be accessible from any demo open in the program and will
+be saved in the program's configuration for next time you use the
+program. You can delete lists of filters from the "Load" dialog.</p>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN" "http://java.sun.com/products/javahelp/toc_2_0.dtd">
+<toc version="2.0">
+  <tocitem text="City of Heroes Demo Editor">
+    <tocitem target="about" text="About"/>
+    <tocitem target="basics" text="Demo Basics">
+      <tocitem target="basics.demofile" text="What is a demo file?"/>
+      <tocitem target="basics.record" text="How do I record a demo?"/>
+      <tocitem target="basics.play" text="How do I play a demo?"/>
+      <tocitem target="basics.thisprogram" text="What does this program do?"/>
+    </tocitem>
+    <tocitem target="tutorial" text="Tutorial"/>
+    <tocitem target="format" text="Demo File Format">
+      <tocitem target="format.valid" text="Valid demo files"/>
+      <tocitem target="format.line" text="Anatomy of a line">
+        <tocitem target="format.line.time" text="Time: Absolute vs Relative"/>
+        <tocitem target="format.line.reference" text="References"/>
+        <tocitem target="format.line.command" text="Commands"/>
+        <tocitem target="format.line.argument" text="Arguments"/>
+      </tocitem>
+      <tocitem target="format.pospyr" text="Locations and directions in City of Heroes"/>
+    </tocitem>
+    <tocitem target="filters" text="Filters"/>
+    <tocitem target="editing" text="Basic Editing">
+      <tocitem target="editing.editsingle" text="Editing a single command"/>
+      <tocitem target="editing.editmultiple" text="Editing multiple commands"/>
+      <tocitem target="editing.insertdelete" text="Inserting and deleting commands"/>
+      <tocitem text="Reordering commands">
+        <tocitem target="editing.moveupdown" text="Moving commands up and down"/>
+        <tocitem target="editing.resort" text="Resorting commands"/>
+      </tocitem>
+      <tocitem target="editing.importexport" text="Importing and exporting commands" />
+    </tocitem>
+    <tocitem target="advediting" text="Advanced Editing"/>
+    <tocitem target="commands" text="Appendix I: List of Known Commands">
+      <tocitem target="commands.version" text="Version"/>
+      <tocitem target="commands.map" text="Map"/>
+      <tocitem target="commands.time" text="Time"/>
+      <tocitem target="commands.player" text="Player"/>
+      <tocitem target="commands.new" text="NEW"/>
+      <tocitem target="commands.costume" text="COSTUME"/>
+      <tocitem target="commands.partsname" text="PARTSNAME"/>
+      <tocitem target="commands.npc" text="NPC"/>
+      <tocitem target="commands.del" text="DEL"/>
+      <tocitem target="commands.mov" text="MOV"/>
+      <tocitem target="commands.pos" text="POS"/>
+      <tocitem target="commands.pyr" text="PYR"/>
+      <tocitem target="commands.chat" text="Chat"/>
+      <tocitem target="commands.float" text="float"/>
+      <tocitem target="commands.floatdmg" text="floatdmg"/>
+      <tocitem target="commands.fx" text="FX"/>
+      <tocitem target="commands.fxscale" text="FXSCALE"/>
+      <tocitem target="commands.origin" text="ORIGIN"/>
+      <tocitem target="commands.target" text="TARGET"/>
+      <tocitem target="commands.seq" text="SEQ"/>
+      <tocitem target="commands.xlu" text="XLU"/>
+    </tocitem>
+    <tocitem target="mov" text="Appendix II: List of Known MOVs"/>
+    <tocitem target="maps" text="Appendix III: List of Known Maps">
+      <tocitem target="maps.city" text="City Maps"/>
+      <tocitem target="maps.arena" text="Arena Maps"/>
+      <tocitem target="maps.mission" text="Mission Maps"/>
+    </tocitem>
+    <tocitem target="npc" text="Appendix IV: List of Known NPCs">
+      <tocitem target="npc.trainers" text="Trainers"/>
+      <tocitem target="npc.tfm" text="Task Force and Trial"/>
+      <tocitem target="npc.stores" text="Enhancement Contacts"/>
+      <tocitem target="npc.pets" text="Pets"/>
+      <tocitem target="npc.av" text="Archvillians and Monsters"/>
+      <tocitem text="Other Villians">
+        <tocitem target="npc.5thcolumn" text="5th Column"/>
+        <tocitem target="npc.bp" text="Banished Partheon"/>
+        <tocitem target="npc.cabal" text="Cabal"/>
+        <tocitem target="npc.carnival" text="Carnival"/>
+        <tocitem target="npc.cot" text="Circle of Thorns"/>
+        <tocitem target="npc.clockwork" text="Clockwork"/>
+        <tocitem target="npc.council" text="Council"/>
+        <tocitem target="npc.axis" text="Council America"/>
+        <tocitem target="npc.crey" text="Crey"/>
+        <tocitem target="npc.de" text="Devouring Earth"/>
+        <tocitem target="npc.family" text="Family"/>
+        <tocitem target="npc.freakshow" text="Freakshow"/>
+        <tocitem target="npc.halloween" text="Halloween 2004"/>
+        <tocitem target="npc.hellions" text="Hellions"/>
+        <tocitem target="npc.hydra" text="Hydra"/>
+        <tocitem target="npc.knives" text="Knives of Artemis"/>
+        <tocitem target="npc.lost" text="Lost"/>
+        <tocitem target="npc.igneous" text="Igneous"/>
+        <tocitem target="npc.malta" text="Malta"/>
+        <tocitem target="npc.nemesis" text="Nemesis"/>
+        <tocitem target="npc.outcasts" text="Outcasts"/>
+        <tocitem target="npc.praetorians" text="Praetorians"/>
+        <tocitem target="npc.rikti" text="Rikti"/>
+        <tocitem target="npc.rularuu" text="Rularuu"/>
+        <tocitem target="npc.skulls" text="Skulls"/>
+        <tocitem target="npc.skyraiders" text="Sky Raiders"/>
+        <tocitem target="npc.trolls" text="Trolls"/>
+        <tocitem target="npc.tsoo" text="Tsoo"/>
+        <tocitem target="npc.turrets" text="Turrets"/>
+        <tocitem target="npc.vahz" text="Vahzilock"/>
+        <tocitem target="npc.void" text="Void Hunters"/>
+        <tocitem target="npc.warriors" text="Warriors"/>
+      </tocitem>
+      <tocitem target="npc.kheld" text="Kheldian Forms"/>
+      <tocitem target="npc.vehicles" text="Vehicles"/>
+      <tocitem target="npc.soldiers" text="Soldiers"/>
+      <tocitem target="npc.objects" text="Misc. Objects"/>
+    </tocitem>
+    <tocitem target="fx" text="Appendix V: List of Known FX">
+      <tocitem target="fx.enemy" text="Enemy"/>
+      <tocitem target="fx.generic" text="Generic"/>
+      <tocitem target="fx.powers" text="Powers"/>
+      <tocitem target="fx.weapons" text="Weapons"/>
+    </tocitem>
+  </tocitem>
+</toc>

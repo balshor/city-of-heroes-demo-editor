@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+<title>City of Heroes Demo Editor: About</title>
+</head>
+<body lang="en-US">
+<H1>About this program</h1>
+<p>CoH Demo Editor v0.9.1</p>
+
+<p>by Darren Lee, aka Balshor, Pinnacle Server</p>
+<p>Global Handle: @Balshor</p>
+<p>Email: balshor@gmail.com</p>
+
+<p>Special thanks to Blood_Wolffe, Shadowcrawler, Paragon_Star, Hammer_Biscuit, Leone, KnightHawk, Zloth, Scuzzbopper, Peter Hansson, Shawnvw, Gary Cooper, Tal-N, PsychoPez, and Star_Dancer for their input and suggestions and to Scuzzbopper's City of Heroes Codex (http://home.twcny.rr.com/scuzzbopper/coh/) for compiling and allowing the inclusion of the lists of demo resources.</p>
+
+<p>For license information, see the LICENSE file.</p>
+
+<p>This program contains the unmodified edu.hws.jcm.data package written by David Eck (eck@hws.edu) for the Java Components for Mathematics, Version 1.0.</p>
+
+<p>The author of this program is not affiliated with Cryptic Studios or NCSoft, and this program is neither endorsed nor supported by either company.</p>
+<p>City of Heroes is a registered trademark of Cryptic Studios, Inc. and NCsoft Corporation.  NCsoft is a registered trademark of NCsoft Corporation.</p>
+<p>Sun Microsystems, Java, and JavaHelp are trademarks or registered trademarks of Sun Microsystems, Inc. in the U.S. and other countries.</p>
+
+</body>
+</html>

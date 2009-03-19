@@ -1,0 +1,561 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE>City of Heroes Demo Editor: Command Help</TITLE>
+</HEAD>
+<BODY LANG="en-US">
+<H1>List of Known Commands</H1>
+<DL>
+	<DT><A NAME="version">Version</A>
+	</DT><DD>
+	Tells the client some sort of version information. Should always be
+	on the first line, and should always have an argument of 2.<BR><CODE>1
+	0 Version 2</CODE></DD><DD STYLE="margin-left: 0in">
+	<BR>
+	</DD><DT>
+	<A NAME="map">Map</A> 
+	</DT><DD>
+	Tells the client which map to load. Should always be on the second
+	line. See the <A HREF="map.html">list of known maps</A>.<BR><CODE>0
+	0 Map maps/City_Zones/Hazard_01_01/Hazard_01_01.txt</CODE></DD><DD>
+	<BR>
+	</DD><DT>
+	<A NAME="time">Time</A>
+	</DT><DD>
+	Tells the client how many hours after midnight to start the demo at.
+	Should always be on the third line.<BR><CODE>0 0 Time 20.929047</CODE></DD><DD>
+	<BR>
+	</DD><DT>
+	<A NAME="player">Player</A> 
+	</DT><DD>
+	Tells the client which reference number is the player. This
+	determines which mobs are drawn and which sounds are played.  Takes
+	no arguments.<BR><CODE>0 313 Player</CODE></DD><DD>
+	<BR>
+	</DD><DT>
+	<A NAME="new">NEW</A> 
+	</DT><DD>
+	Creates a new mob in the demo and assigns it to the given reference
+	number. The reference number should not be already assigned to any
+	mob. Takes the mob's name as its only argument -- enclose the name
+	in quotes if it is more than one word.<BR><CODE>0 313 NEW &quot;Hero's
+	name&quot;</CODE></DD><DD>
+	<BR>
+	</DD><DT>
+	<A NAME="costume">COSTUME</A> 
+	</DT><DD>
+	Assigns the base model, skin color, and slider values to a mob with
+	a custom costume (eg, a player hero). The 31 arguments are as
+	follows:</DD></DL>
+<CENTER>
+	<TABLE WIDTH=200 BORDER=1 BORDERCOLOR="#000000" CELLPADDING=4 CELLSPACING=0 FRAME=ABOVE>
+		<COL WIDTH=34>
+		<COL WIDTH=67>
+		<COL WIDTH=75>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=LEFT>Arg #</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Description</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>Valid Values</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>1</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Basic Model Number</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>0=male, 1=female, 4=huge</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>2</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Skin color</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>A color in BBGGRR format</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>3</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Height</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>0=average</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>4</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Physique</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>5</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Unknown</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>&nbsp;</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>6</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Shoulders</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>7</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Chest</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>8</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Waist</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>9</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Hips</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>10</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Legs</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>11</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Head Width</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>12</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Head Height</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>13</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Head Depth</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>14</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Brow Width</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>15</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Brow Height</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>16</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Brow Depth</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>17</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Cheek Width</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>18</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Cheek Height</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>19</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Cheek Depth</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>20</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Chin Width</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>21</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Chin Height</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>22</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Chin Depth</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>23</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Cranium Width</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>24</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Cranium Height</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>25</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Cranium Depth</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>26</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Jaw Width</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>27</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Jaw Height</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>28</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Jaw Depth</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>29</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Nose Width</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>30</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Nose Height</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD WIDTH=34>
+				<P ALIGN=RIGHT>31</P>
+			</TD>
+			<TD WIDTH=67>
+				<P ALIGN=LEFT>Nose Depth</P>
+			</TD>
+			<TD WIDTH=75>
+				<P ALIGN=LEFT>[-1,1]</P>
+			</TD>
+		</TR>
+	</TABLE>
+</CENTER>
+<DL>
+	<DD><BR>
+	</DD><DT>
+	<A NAME="partsname">PARTSNAME</A>
+	</DT><DD>
+	Defines the various pieces that go on a custom
+	costume. 24 of these commands should follow a COSTUME command.
+	Generally, they take five arguments: 3 names to specify the piece,
+	the primary color, and the secondary color. The cape and aura lines
+	can take the usual five arguments plus two more colors and a FX.
+	<B>Examples and explanation of order of lines to come.</B></DD><DT>
+	<BR>
+	</DT><DT>
+	<A NAME="npc">NPC</A> 
+	</DT><DD>
+	Used instead of the COSTUME/PARTSNAME commands to
+	indicate that the reference should use a predefined model. Takes the
+	model name as its sole argument. See the <A HREF="npc.html">list of
+	known NPCs</A>.<BR><CODE>0 317 NPC Thug_Hellion_05</CODE></DD><DT>
+	<BR>
+	</DT><DT>
+	<A NAME="del">DEL</A> 
+	</DT><DD>
+	Removes the reference from the demo, freeing the
+	number to be reassigned using a subsequent NEW command. Takes no
+	arguments.<BR><CODE>0 317 DEL</CODE></DD><DT>
+	<BR>
+	</DT><DT>
+	<A NAME="mov">MOV</A> 
+	</DT><DD>
+	Tells the reference to perform an animation. Takes
+	the name of the animation as its sole argument. See the <A HREF="mov.html">list
+	of known MOVs</A>.<BR><CODE>0 317 MOV OBSERVE</CODE></DD><DT>
+	<BR>
+	</DT><DT>
+	<A NAME="pos">POS</A>
+	</DT><DD>
+	Puts the reference at the given location. The
+	three arguments are the standard (x,z,y) coordinates. See <A HREF="format.html#pospyr">Locations
+	and directions in City of Heroes</A> for more information.<BR><CODE>0
+	317 POS -2671.09375 0 27.796875</CODE> 
+	</DD><DT>
+	<BR>
+	</DT><DT>
+	<A NAME="pyr">PYR</A> 
+	</DT><DD>
+	Faces the reference in the given direction. The
+	three arguments are the standard pitch/yaw/roll coordinates. See
+	<A HREF="format.html#pospyr">Locations and directions in City of
+	Heroes</A> for more information.<BR><CODE>0 317 PYR 0 -2.454369 0</CODE></DD><DT>
+	<BR>
+	</DT><DT>
+	<A NAME="chat">Chat</A> 
+	</DT><DD>
+	Sends a message to a particular chat channel
+	from a particular reference.  First argument is the chat channel,
+	second argument is unknown, and the third is the chat message
+	(enclosed in quotes). Known chat channels include 7=[Tell],
+	8=[Team], 10=[Local], 11=[Broadcast], 12=[Request], and
+	13=[Friends].</DD><DD>
+	<CODE>0 0 Chat 3 0 &ldquo;You have
+	defeated Damned&rdquo;</CODE</DD><DT>
+	<BR>
+	</DT><DT>
+	<A NAME="float">float</A>
+	</DT><DD>
+	Causes a message to briefly float above a
+	character's head.  The first argument should be either 5 (for
+	visible messages) or 6 (for invisible ones).  The second argument is
+	a code indicating which message to float.  Examples include (for 5)
+	<CODE>FloatOutOfRange</CODE>,
+	<CODE>FloatMiss</CODE>,
+	<CODE>FloatRecharging</CODE>,
+	<CODE>FloatInterrupted</CODE>,
+	<CODE>FloatNotEnoughEndurance</CODE>,
+	<CODE>FloatNoEndurance</CODE>.  For 6,
+	<CODE>FloatFoundClue</CODE>,
+	<CODE>FloatFoundEnhancement</CODE>,
+	<CODE>FloatMissionComplete</CODE>, and
+	(probably) <CODE>FloatMissionInComplete</CODE><FONT FACE="Times New Roman, serif">.
+	 In order to float arbitrary messages, use the floatdmg command.</CODE></DD><DD>
+	<CODE>0 317 float 5 FloatRecharging</CODE></DD><DT>
+	<BR>
+	</DT><DT>
+	<A NAME="floatdmg">floatdmg</A>
+	</DT><DD>
+	Causes damage and healing numbers or arbitrary
+	messages to briefly float above a character's head.  The first
+	argument is the reference of the character to float over.  The
+	second is the amount of damage to float: positive numbers float red
+	damage numbers, negative numbers float green healing numbers.  If
+	the second argument is zero, the message in the third argument will
+	be floated. Otherwise, the third argument should be the empty
+	string.</DD><DD>
+	<CODE>0 313 floatdmg 1117 418 &ldquo;&rdquo;</CODE></DD><DD>
+	<CODE>0 313 floatdmg 1117 0 &ldquo;Critical&rdquo;</CODE></DD><DT>
+	<BR>
+	</DT><DT>
+	<A NAME="fx">FX</A> 
+	</DT><DD>
+	Starts a visual effect on a character.  The first argument is either
+	<CODE>OneShot</CODE><FONT FACE="Times New Roman, serif">
+	or </CODE><CODE>Maintained</CODE><FONT FACE="Times New Roman, serif">
+	depending on whether the effect should persist.  The second argument
+	is an arbitrary ID number for the effect, and the third is the FX to
+	display.  The fourth argument is unknown but generally should be set
+	to 0.  This command should be followed by an FXSCALE, ORIGIN, and
+	TARGET command, in that order.  See </CODE><A HREF="fx.html">List
+	of Known FX</A> for more information.</DD><DD>
+	<CODE>0 313 FX OneShot 1703957
+	POWERS/FIRECONTROL/FIREBALLHIT.FX 0</CODE></DD><DD>
+	<BR>
+	</DD><DT>
+	<A NAME="fxscale">FXSCALE</A> 
+	</DT><DD>
+	Scales the effect created in the previous line
+	(presumably).  Doesn't really seem to do much, but this line should
+	follow every FX command.  The arguments should generally be
+	10.000000 and 10.</DD><DD>
+	<CODE>0 313 FXSCALE 10.000000 10</CODE></DD><DT>
+	<BR>
+	</DT><DT>
+	<A NAME="origin">ORIGIN</A>
+	</DT><DD>
+	</A>Specifies the origin of the power effect. 
+	Almost always seen with the arguments <CODE>ENT
+	0 0</CODE><FONT FACE="Times New Roman, serif">, although it's
+	reasonable to believe that any argument valid for the TARGET command
+	would likewise work here.</CODE></DD><DD>
+	<CODE>0 313 ORIGIN ENT 0 0</CODE></DD><DT>
+	<BR>
+	</DT><DT>
+	<A NAME="target">TARGET</A></DT><DD>
+	Specifies the target of the power effect.  The
+	target is specified by reference number (using ENT) or location
+	(using POS).  In the former case, the next arguments should be the
+	reference number and 0. In the latter case, the next three arguments
+	should be the standard (x,z,y) coordinates of the location to
+	target.</DD><DD>
+	<CODE>0 313 TARGET ENT 1117 0</CODE></DD><DD>
+	<CODE>0 313 TARGET POS -2270.602051
+	-0.153786 -195.424423</CODE></DD><DT>
+	<BR>
+	</DT><DT>
+	<A NAME="seq">SEQ</A>
+	</DT><DD>
+	<BR>
+	</DD><DT STYLE="margin-bottom: 0.2in">
+	<A NAME="xlu">XLU</A> 
+	</DT></DL>
+</BODY>
+</HTML>
