@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!--
+		Document : configSchema.xsd Created on : June 30, 2005, 10:43 AM
+		Author : Owner Description: Purpose of XML Schema document follows.
+	-->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:ns="http://xml.netbeans.org/examples/targetNS" targetNamespace="http://xml.netbeans.org/examples/targetNS"
+	xmlns:jxb="http://java.sun.com/xml/ns/jaxb" xmlns="http://xml.netbeans.org/examples/targetNS"
+	elementFormDefault="qualified" jxb:version="1.0">
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<jxb:schemaBindings>
+				<jxb:package name="cohdemoeditor.config" />
+			</jxb:schemaBindings>
+		</xsd:appinfo>
+	</xsd:annotation>
+
+	<xsd:element name="demo-editor-config" type="DemoEditorConfigType" />
+
+	<xsd:complexType name="DemoEditorConfigType">
+		<xsd:sequence>
+			<xsd:element name="version" type="xsd:string" />
+			<xsd:element name="default-demo-path" type="xsd:string" />
+			<xsd:element name="default-x-pos" type="xsd:int" />
+			<xsd:element name="default-y-pos" type="xsd:int" />
+			<xsd:element name="width" type="xsd:int" />
+			<xsd:element name="height" type="xsd:int" />
+			<xsd:element name="default-coh-path" type="xsd:string" />
+			<xsd:element name="pc" type="xsd:boolean" />
+			<xsd:element name="wizard" type="xsd:string" minOccurs="0"
+				maxOccurs="unbounded" />
+			<xsd:element name="filterlists" type="filterlist"
+				minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="launcher" type="launcher" maxOccurs="1"
+				minOccurs="0">
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="filterlist">
+		<xsd:sequence>
+			<xsd:element name="name" type="xsd:string" />
+			<xsd:element name="filter" type="filter" minOccurs="1"
+				maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="filter">
+		<xsd:annotation>
+			<xsd:documentation>
+				Contains the necessary information for a single
+				filter.
+            </xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element name="timerange" type="timerange" minOccurs="0"
+				maxOccurs="unbounded" />
+			<xsd:element name="reference" type="xsd:int" minOccurs="0"
+				maxOccurs="unbounded" />
+			<xsd:element name="command" type="xsd:string" minOccurs="0"
+				maxOccurs="unbounded" />
+			<xsd:element name="argument" type="xsd:string" minOccurs="0"
+				maxOccurs="unbounded" />
+			<xsd:element name="type" type="xsd:boolean" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="timerange">
+		<xsd:sequence>
+			<xsd:element name="starttime" type="xsd:int" />
+			<xsd:element name="endtime" type="xsd:int" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="launcher">
+		<xsd:sequence>
+			<xsd:element name="disable2d" type="xsd:boolean" />
+			<xsd:element name="fullscreen" type="xsd:boolean" />
+			<xsd:element name="fps" type="xsd:int" minOccurs="0"
+				maxOccurs="1" />
+			<xsd:element name="resolutionX" type="xsd:int" minOccurs="0" maxOccurs="1" />
+			<xsd:element name="resolutionY" type="xsd:int" minOccurs="0" maxOccurs="1" />
+			<xsd:element name="mode" type="xsd:int" />
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>
